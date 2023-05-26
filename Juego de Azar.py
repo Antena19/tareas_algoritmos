@@ -15,3 +15,10 @@ for i in range(5): #repito 5 veces...
 print(f"Sus números de la suerte son: {listaConcursante}"); #muestro los números del concursante.
 print("---Sorteo 1---");
 print("Los números ganadores son: ");
+for x in range(5): #hice un for para seleccionar los 5 números ganadores
+    numPosibles = random.randint(1,50); #uso el random para sacarlos al azar
+    print(numPosibles); #muestro los números que salieron al azar
+if listaConcursante != numPosibles: #comparo los números del concrsante con los del sorteo, si son diferentes...
+    print("Lo siento, no ha ganado esta ronda") #muestro mensaje de que perdió
+else: #si son iguales...
+    print("¡¡¡Felicidades!!! ¡¡Ganó!!");#muestro mensaje de que ganó
