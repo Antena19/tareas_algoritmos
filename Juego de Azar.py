@@ -1,4 +1,5 @@
 '''Juego de Azar'''
+import random
 #La empresa de juegos de azar “Lotín”, desea crea una aplicación móvil que genere sorteos rápidos dentro del mismo celular.
 #Para eso, le solicita crear un algoritmo que genere una lista de números de manera aleatoria donde si usted acierta, gana. Las reglas son las siguientes:
 #Los números participantes son del 1 al 49
