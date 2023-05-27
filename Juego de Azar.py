@@ -11,6 +11,7 @@ numPosibles = list(range(1,50)); #Creo la lista de los posibles números ganador
 print(f" Números posibles: {numPosibles}"); #muestro los números posibles.
 listaConcursante=[]; #creo una lista vacía del concursante
 for i in range(5): #repito 5 veces...
+    numConcursante=int(input("Ingrese un número: ")); #pido y almaceno los números del concursante en una variable
     listaConcursante.append(numConcursante); #agrego los numeros del concursante a su lista.
 print(f"Sus números de la suerte son: {listaConcursante}"); #muestro los números del concursante.
 print("---Sorteo 1---");
